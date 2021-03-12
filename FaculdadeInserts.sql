@@ -1,4 +1,4 @@
---Inserts
+Ôªø--Inserts
 use Faculdade;
 
 insert into Professor values('43387157070','Carlos')
@@ -8,45 +8,45 @@ insert into Professor values('91134417012','Guanabara')
 insert into Professor values('29090409092','Alfredo')
 --select * from Professor
 
-insert into Curso values ('An·lise e Desenvolvimento de Sistemas', 'ADS')
+insert into Curso values ('An√°lise e Desenvolvimento de Sistemas', 'ADS')
 insert into Curso values ('Agronomia', 'AGRO')
 insert into Curso values ('Engenharia Civil', 'EC')
 insert into Curso values ('Jogos Digitais', 'JD')
-insert into Curso values ('Matem·tica', 'MAT')
+insert into Curso values ('Matem√°tica', 'MAT')
 insert into Curso values ('Gastronomia', 'GAS')
 insert into Curso values ('Psicologia', 'PSI')
 --select * from Curso
 
 insert into Disciplina (Nome, Sigla, Cod_curso) values ('Banco de Dados I', 'BD1', 1)
 insert into Disciplina (Nome, Sigla, Cod_curso) values ('Banco de Dados II', 'BD2', 1)
-insert into Disciplina (Nome, Sigla, Cod_curso) values ('LÛgica de ProgramaÁ„o', 'LP', 1)
+insert into Disciplina (Nome, Sigla, Cod_curso) values ('L√≥gica de Programa√ß√£o', 'LP', 1)
 insert into Disciplina (Nome, Sigla, Cod_curso) values ('Estrutura de Dados', 'ED', 1)
 
-insert into Disciplina (Nome, Sigla, Cod_curso) values ('Plantar ¡rvore I', 'PA1', 2)
-insert into Disciplina (Nome, Sigla, Cod_curso) values ('Plantar ¡rvore II', 'PA2', 2)
-insert into Disciplina (Nome, Sigla, Cod_curso) values ('AdministraÁ„o de Fazenda', 'ADMF', 2)
+insert into Disciplina (Nome, Sigla, Cod_curso) values ('Plantar √Årvore I', 'PA1', 2)
+insert into Disciplina (Nome, Sigla, Cod_curso) values ('Plantar √Årvore II', 'PA2', 2)
+insert into Disciplina (Nome, Sigla, Cod_curso) values ('Administra√ß√£o de Fazenda', 'ADMF', 2)
 
-insert into Disciplina (Nome, Sigla, Cod_curso) values ('C·lculo I', 'C1', 3)
-insert into Disciplina (Nome, Sigla, Cod_curso) values ('C·lculo II', 'C2', 3)
-insert into Disciplina (Nome, Sigla, Cod_curso) values ('C·lculo III', 'C3', 3)
-insert into Disciplina (Nome, Sigla, Cod_curso) values ('C·lculo IV', 'C4', 3)
+insert into Disciplina (Nome, Sigla, Cod_curso) values ('C√°lculo I', 'C1', 3)
+insert into Disciplina (Nome, Sigla, Cod_curso) values ('C√°lculo II', 'C2', 3)
+insert into Disciplina (Nome, Sigla, Cod_curso) values ('C√°lculo III', 'C3', 3)
+insert into Disciplina (Nome, Sigla, Cod_curso) values ('C√°lculo IV', 'C4', 3)
 
 insert into Disciplina (Nome, Sigla, Cod_curso) values ('Banco de Dados I', 'BD1', 4)
 insert into Disciplina (Nome, Sigla, Cod_curso) values ('Banco de Dados II', 'BD2', 4)
-insert into Disciplina (Nome, Sigla, Cod_curso) values ('LÛgica de ProgramaÁ„o', 'LP', 4)
+insert into Disciplina (Nome, Sigla, Cod_curso) values ('L√≥gica de Programa√ß√£o', 'LP', 4)
 
-insert into Disciplina (Nome, Sigla, Cod_curso) values ('C·lculo I', 'C1', 5)
-insert into Disciplina (Nome, Sigla, Cod_curso) values ('C·lculo II', 'C2', 5)
-insert into Disciplina (Nome, Sigla, Cod_curso) values ('C·lculo III', 'C3', 5)
-insert into Disciplina (Nome, Sigla, Cod_curso) values ('C·lculo IV', 'C4', 5)
+insert into Disciplina (Nome, Sigla, Cod_curso) values ('C√°lculo I', 'C1', 5)
+insert into Disciplina (Nome, Sigla, Cod_curso) values ('C√°lculo II', 'C2', 5)
+insert into Disciplina (Nome, Sigla, Cod_curso) values ('C√°lculo III', 'C3', 5)
+insert into Disciplina (Nome, Sigla, Cod_curso) values ('C√°lculo IV', 'C4', 5)
 
 insert into Disciplina (Nome, Sigla, Cod_curso) values ('Fazer Arroz', 'FA', 6)
-insert into Disciplina (Nome, Sigla, Cod_curso) values ('Fazer Feij„o', 'FF', 6)
+insert into Disciplina (Nome, Sigla, Cod_curso) values ('Fazer Feij√£o', 'FF', 6)
 insert into Disciplina (Nome, Sigla, Cod_curso) values ('Fritar Ovo', 'FO', 6)
 
 insert into Disciplina values ('Anatomia', 'ANA', 7, 96)
-insert into Disciplina (Nome, Sigla, Cod_curso) values ('CabeÁa DodÛi I', 'CD1', 7)
-insert into Disciplina (Nome, Sigla, Cod_curso) values ('CabeÁa DodÛi II', 'CD2', 7)
+insert into Disciplina (Nome, Sigla, Cod_curso) values ('Cabe√ßa Dod√≥i I', 'CD1', 7)
+insert into Disciplina (Nome, Sigla, Cod_curso) values ('Cabe√ßa Dod√≥i II', 'CD2', 7)
 
 --select * from Disciplina order by Cod_curso
 
@@ -60,14 +60,21 @@ insert into Aluno (RA, Nome, CPF, Cod_curso) values ('78900','Thalita','78609080
 insert into Aluno (RA, Nome, CPF, Cod_curso) values ('78901','Godofredo','70759600082', 4)
 
 --select * from Aluno
---select * from Disciplina order by Codigo
---select * from Professor
-
-insert into Disciplina_Professor values (1, 1)
-insert into Disciplina_Professor values (22, 1)
-insert into Disciplina_Professor values (10,1)
-insert into Disciplina_Professor values (19, 1)
-
+select * from Disciplina order by Codigo
+select * from Professor
+--- rodar s√≥ isso
+insert into Disciplina_Professor(Cod_disciplina, Cod_professor, Semestre, Ano) values (1, 1, 1, 2019)
+insert into Disciplina_Professor(Cod_disciplina, Cod_professor, Semestre, Ano) values (19,1, 2, 2019)
+insert into Disciplina_Professor(Cod_disciplina, Cod_professor, Semestre, Ano) values (11,4,2, 2019)
+insert into Disciplina_Professor(Cod_disciplina, Cod_professor, Semestre, Ano) values (19,1, 2, 2020)
+-----
+/*
+insert into Matricula (Cod_disciplina, RA, Semestre, Ano) values(1,'12345', 1, 2019)
+insert into Matricula (Cod_disciplina, RA, Semestre, Ano) values(19,'23456', 2, 2020)
+insert into Matricula (Cod_disciplina, RA, Semestre, Ano) values(11,'45678', 2, 2019)
+insert into Matricula (Cod_disciplina, RA, Semestre, Ano) values(11,'78900', 2, 2020)
+*/
+/*
 insert into Disciplina_Professor values (2, 2)
 insert into Disciplina_Professor values (3, 3)
 insert into Disciplina_Professor values (4, 4)
@@ -88,22 +95,24 @@ insert into Disciplina_Professor values (20, 3)
 insert into Disciplina_Professor values (21, 2)
 insert into Disciplina_Professor values (23, 4)
 insert into Disciplina_Professor values (24, 5)
+*/
 --select * from Disciplina_Professor where Cod_Professor = 2
 --select * from Professor where Codigo = 2
 
---select respons·vel por buscar os professores que est„o atrelados ao curso
+--select respons√°vel por buscar os professores que est√£o atrelados ao curso
 /*
-select d.Nome as Disciplina, c.Codigo, c.Nome as Curso, p.Codigo, p.Nome as Nome_Professor from Curso c 
+select d.Codigo, d.Nome as Disciplina, c.Codigo, c.Nome as Curso, p.Codigo, p.Nome as Nome_Professor from Curso c 
 join Disciplina d on c.Codigo = d.Cod_curso 
 join Disciplina_Professor dp on d.Codigo = dp.Cod_disciplina 
 join Professor p on p.Codigo = dp.Cod_professor
-where p.Codigo = 5
+where p.Codigo = 6
 */
 --select * from Professor
 
-insert into Curso_Professor (Cod_professor, Cod_curso) values (1, 1)
-insert into Curso_Professor (Cod_professor, Cod_curso) values (1, 3)
+insert into Curso_Professor (Cod_professor, Cod_curso) values (4, 3)
 insert into Curso_Professor (Cod_professor, Cod_curso) values (1, 6)
+insert into Curso_Professor (Cod_professor, Cod_curso) values (1, 1)
+/*
 insert into Curso_Professor (Cod_professor, Cod_curso) values (1, 7)
 
 insert into Curso_Professor (Cod_professor, Cod_curso) values (2, 1)
@@ -126,6 +135,8 @@ insert into Curso_Professor (Cod_professor, Cod_curso) values (5, 2)
 insert into Curso_Professor (Cod_professor, Cod_curso) values (5, 4)
 insert into Curso_Professor (Cod_professor, Cod_curso) values (5, 5)
 insert into Curso_Professor (Cod_professor, Cod_curso) values (5, 7)
+*/
+
 --select * from Curso_Professor
 
 /*
@@ -212,10 +223,17 @@ update Boletim set Falta = ;
 --criando as matriculas
 insert into Matricula (Cod_disciplina, RA, Semestre, Ano) values(1,'12345', 1, 2019)
 insert into Matricula (Cod_disciplina, RA, Semestre, Ano) values(19,'23456', 2, 2020)
-insert into Matricula (Cod_disciplina, RA, Semestre, Ano) values(11,'45678', 2, 2020)
+insert into Matricula (Cod_disciplina, RA, Semestre, Ano) values(11,'45678', 2, 2019)
 insert into Matricula (Cod_disciplina, RA, Semestre, Ano) values(11,'78900', 2, 2020)
+/*
+*/
+insert into Matricula (Cod_disciplina, RA, Semestre, Ano) values(19,'12345', 2, 2019)
+insert into Matricula (Cod_disciplina, RA, Semestre, Ano) values(1,'34567', 1, 2019)
+insert into Matricula (Cod_disciplina, RA, Semestre, Ano) values(11,'12345', 2, 2020)
 
---dando notas
+delete Matricula 
+
+--DANDO NOTAS ( Õ°¬∞ Õú ñ Õ°¬∞)
 ---------------------------------------------------
 update Matricula set Prova1 = 10
 where Cod_disciplina = 1 and RA = 12345;
@@ -247,13 +265,13 @@ where Cod_disciplina = 11 and RA = 45678;
 update Matricula set Falta = 24
 where Cod_disciplina = 11 and RA = 45678;
 
-update Matricula set Prova1 = 7
+update Matricula set Prova1 = 8
 where Cod_disciplina = 11 and RA = 78900;
 
-update Matricula set Prova2 = 9
+update Matricula set Prova2 = 8
 where Cod_disciplina = 11 and RA = 78900;
 
-update Matricula set Falta = 24
+update Matricula set Falta = 25
 where Cod_disciplina = 11 and RA = 78900;
 ---------------------------------------------------
 select * from Matricula
